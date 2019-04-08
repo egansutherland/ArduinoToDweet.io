@@ -755,12 +755,12 @@ void dhtRead()
   //if( humidity != 0 && temperature != 0 )
   //{
     //Serial.print( "Current Humidity: " );
-    /*Serial.print( "\r\n\r\n\r\n" );
+    //Serial.print( "\r\n\r\n\r\n" );
     Serial.print( humidity );
     Serial.print( "\r\n" );
-    Serial.print(":LSKJDHFK:LDSJHJF");
+    //Serial.print(":LSKJDHFK:LDSJHJF");
     Serial.print( temperature );
-    Serial.print( "\r\n" );*/
+    Serial.print( "\r\n" );
   //}
   
 /*  while( exitFlag )

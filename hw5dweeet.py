@@ -7,7 +7,7 @@ mySerial = serial.Serial("/dev/ttyACM0", 9600, timeout=1)
 #print("Start")
 while True:
     testStr=mySerial.readline()[:-2]
-    print(testStr)
+    #print(testStr)
     if testStr == "MPU6050":
         print(testStr)
         acceler = mySerial.readline()[:-2]
@@ -34,7 +34,7 @@ while True:
         dweepy.dweet_for('egans',{'Altitude': altitude})
         time.sleep(1)
         print()
-    if testStr == "DHT22 ":
+    if testStr == "DHT22":
         print("you fucking made it")
         print(testStr)
         humidity = mySerial.readline()[:-2]
