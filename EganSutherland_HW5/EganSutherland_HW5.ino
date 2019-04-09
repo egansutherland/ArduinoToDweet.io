@@ -121,6 +121,8 @@ void setup() {
   {
     Serial.print( "FAILED TO FIND BMP280" );
   }
+
+  accro.initialize();
 }
 
 void loop() {
@@ -136,7 +138,7 @@ void loop() {
   //Serial.print( CR );
   bmp();
   
-  Serial.print( "DHT22\r\n" );
+  Serial.print( "DHT\r\n" );
   //Serial.print( "\n" );
   //Serial.print( CR );
   dhtRead();
